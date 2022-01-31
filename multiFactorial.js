@@ -7,9 +7,7 @@ function getMultiFactorials(number){
              fact *= j;
              x = i + " of factorial is = " + fact;
              console.log(x); 
-        }
-        
+        }     
     }
- 
 }
 getMultiFactorials(10);
