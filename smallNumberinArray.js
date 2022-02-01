@@ -1,7 +1,7 @@
 function largestNumber(number){
     let len = number.length;
     let smallest = number[0];
-    for(let i = 0; i<len; i++){
+    for(let i = 1; i<len; i++){
         let element = number[i];
         if(element < smallest){
             smallest = element;
