@@ -7,6 +7,5 @@ function oddEven(num1,num2){
             console.log("Odd Number is = "+ i);
         }
     }
-
 }
 oddEven(1,10);
