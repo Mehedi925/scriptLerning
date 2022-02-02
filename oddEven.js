@@ -1,11 +1,16 @@
 function oddEven(num1,num2){
+    let oddNumber = [];
+    let evenNumber = [];
+
     for(let i = num1; i<=num2; i++){
         if(i%2 == 0){
-            console.log("Even Number is = "+ i);
+            evenNumber.push(i);
         }
-        else if(i%2!=0){
-            console.log("Odd Number is = "+ i);
+        else{
+            oddNumber.push(i);
         }
     }
+    console.log("even number is "+evenNumber);
+    console.log("odd number is "+oddNumber);
 }
 oddEven(1,10);
